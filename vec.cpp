@@ -12,12 +12,12 @@ void PrintVector(vector<int> v) {
 int main() {
     int n;
     cin >> n;
-    vector<int> v; // Create an empty vector
+    vector<int> v; 
 
     for (int i = 0; i < n; ++i) {
         int x;
         cin >> x;
-        v.push_back(x); // Add elements to the vector
+        v.push_back(x); 
     }
 
     PrintVector(v);
