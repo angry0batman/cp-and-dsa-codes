@@ -27,4 +27,5 @@ int main() {
     for (int i = 0; i < v.size(); ++i) {
         PrintVector(v[i]);
     }
+    cout<<v[0][1]<<endl;
 }
